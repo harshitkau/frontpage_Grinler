@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'loginPage.dart';
+import 'package:frontpage_grinler/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginPage(),
+      home: Login(),
     );
   }
 }
